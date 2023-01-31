@@ -2,10 +2,10 @@
 import java.util.Scanner
 
 
-val scanner = Scanner(System.`in`) // Do not change this line
+val scanner = Scanner(System.`in`) 
 
 fun main() {
-    greet("Aid", "2020") // change it as you need
+    greet("Aid", "2020") 
     remindName()
     guessAge()
     count()
@@ -46,7 +46,7 @@ fun count() {
 
 fun test() {
     println("Let's test your programming knowledge.")
-    // write your code here
+    
     println("""
 Why do we use methods?
 1. To repeat a statement multiple times.
@@ -62,5 +62,5 @@ Why do we use methods?
 }
 
 fun end() {
-    println("Congratulations, have a nice day!") // Do not change this text
+    println("Congratulations, have a nice day!") 
 }
